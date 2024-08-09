@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/c71e10e249.js" crossorigin="anonymous"></script>
+    <title>Weather API</title>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="search">
+                <input class="in" type="text" placeholder="Enter the Location"/>
+                <button onclick="div()" id="butt"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+        <div class="bar">
+            <h1 style="margin: 10px;">Weather</h1>
+            <div class="imagee">
+                <div class="cl">
+                    <img src="../assets/cloud.png"/>
+                </div>
+                <!-- <div class="cle">
+                    <img src="../assets/clear.png"/>
+                </div> -->
+                <!-- <div class="mi">
+                    <img src="../assets/mist.png"/>
+                </div> -->
+                <!-- <div class="ra">
+                    <img src="../assets/rain.png"/>
+                </div> -->
+                <!-- <div class="sn">
+                    <img src="../assets/snow.png"/>
+                </div> -->
+            </div>
+        </div>
+        <div class="location">
+            <h1>Sorry, Location not found!!!</h1>
+            <img src="../assets/404.png" alt="404 Error"/>
+        </div>
+        <div class="weather">
+            <img src="../assets/cloud.png" alt="weather" class="w-img"/>
+            <div class="box">
+                <p class="temp">0<sup>°C</sup></p>
+                <p class="desc">light Rain</p>
+            </div>
+            <div class="details">
+                <div class="humidity">
+                    <i class="fa-sharp fa-solid fa-droplet"></i>
+                    <div class="text">
+                        <span id="humid">45%</span>
+                    </div>
+                </div>
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="text">
+                        <span id="speed">12Km/H</span>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="script.js
+    ">
+
+    </script>
+</body>
+</html>
